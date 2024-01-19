@@ -1,6 +1,6 @@
 // index.js
 
-document.addEventListener("DOMContentLoaded", function () {
+
     // 1) Remove the main element with id 'main'
     var mainElement = document.getElementById("main");
     if (mainElement) {
@@ -20,5 +20,3 @@ document.addEventListener("DOMContentLoaded", function () {
   
     // Append the 'newHeader' to the document body or another appropriate location
     document.body.appendChild(newHeader);
-  });
-  
